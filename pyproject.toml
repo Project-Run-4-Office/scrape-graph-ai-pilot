@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scrapegraph-ai-pilot"
+version = "0.1.0"
+description = ""
+authors = ["Savith Panamgama <geethikasavith@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.12.6"
+scrapegraphai = "^1.31.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
